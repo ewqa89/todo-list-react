@@ -1,7 +1,7 @@
 # To do list
 
 ## Link to website
-https://ewqa89.github.io/to-do-list/
+https://ewqa89.github.io/todo-list-react/
 
 ![Demo](public/Demo_toDoList.gif)
 # Getting Started with Create React App
