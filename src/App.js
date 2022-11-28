@@ -7,6 +7,7 @@ import Container from "./Container";
 
 const tasks = [
 ];
+const hideDoneTasks = false;
 
 function App() {
 	
