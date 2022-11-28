@@ -1,0 +1,40 @@
+.section {
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.section__header {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 2px solid gainsboro;
+}
+
+.section__div {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 2px solid gainsboro;
+}
+
+.section__div--homework {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .section__div--homework {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__ul {
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+    border: none;
+}
+
+.section__head {
+    margin: 0;
+}
