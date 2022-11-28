@@ -4,6 +4,7 @@ const Tasks = (props) => (
     <ul className="section__ul">
         {props.tasks.map(task => (
             <li
+            key={task.id}
                 className={`list ${(props.hideDoneTasks && task.done) ? "list__hidden" : ""}`}
             >
                 <button className="list__button list__button--done">
