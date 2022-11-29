@@ -10,29 +10,19 @@
     border-bottom: 2px solid gainsboro;
 }
 
-.section__div {
+.section__header {
     padding: 20px;
     margin: 0;
     border-bottom: 2px solid gainsboro;
-}
-
-.section__div--homework {
     display: grid;
     grid-template-columns: 1fr auto auto;
     grid-gap: 10px;
 }
 
 @media (max-width: 767px) {
-    .section__div--homework {
+    .section__header {
         grid-template-columns: 1fr;
     }
-}
-
-.section__ul {
-    padding: 20px;
-    margin: 0;
-    list-style: none;
-    border: none;
 }
 
 .section__head {

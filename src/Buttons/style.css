@@ -19,14 +19,14 @@
     color: hsl(180, 100%, 50%);
 }
 
-.container__paragraph {
+.buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0;
 }
 
 @media (max-width: 767px) {
-    .container__paragraph{
+    .buttons{
     grid-template-columns: 1fr;
     }
 }
