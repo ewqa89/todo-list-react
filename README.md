@@ -4,7 +4,24 @@
 https://ewqa89.github.io/todo-list-react/
 
 ![Demo](public/Demo_toDoList.gif)
-# Getting Started with Create React App
+
+## What I used
+- HTML
+- CSS
+- JavaScript
+- BEM Methodology
+- normalize.css
+- Create React App
+
+## Description
+I would like to present my aplication to create task list.
+
+Funcion:
+- You can mark a task as done or not done
+- You can hided done tasks
+- You can delete each task separately
+- You can mark all tasks as done
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
