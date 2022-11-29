@@ -2,7 +2,7 @@ import "./style.css";
 
 const Buttons = ({ tasks, hideDoneTasks }) => (
   tasks.length > 0 && (
-    <p className="container__paragraph">
+    <section className="buttons">
       <button className="buttons__button">
         {hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}
       </button>
@@ -11,7 +11,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
       >
         Ukończ wyszystkie
       </button>
-    </p>
+    </section>
   )
 );
 
