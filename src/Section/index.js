@@ -1,13 +1,13 @@
 import "./style.css";
 
 const Section = ({ title, body, extraHeaderContent }) => (
-    <div className="section">
-        <div className="section__div section__div--homework">
+    <section className="section">
+        <div className="section__header">
             <h2 className="section__head">{title}</h2>
             {extraHeaderContent}
         </div>
         {body}
-    </div>
+    </section>
 );
 
 export default Section;
